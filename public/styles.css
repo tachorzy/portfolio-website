@@ -11,7 +11,11 @@ h1,
 h3,
 h4,
 h5,
-.skills {
+h6,
+h7,
+h8,
+h9,
+p {
   font-family: 'Lato', sans-serif;
   color: #e3daca;
 }
@@ -5994,6 +5998,10 @@ video {
   margin-left: 64rem;
 }
 
+.ml-220 {
+  margin-left: 66rem;
+}
+
 .ml-222 {
   margin-left: 68rem;
 }
@@ -6764,6 +6772,10 @@ video {
 
 .w-96 {
   width: 24rem;
+}
+
+.w-100 {
+  width: 30rem;
 }
 
 .w-auto {
