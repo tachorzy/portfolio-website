@@ -34,6 +34,30 @@ h2 {
   color: #e3daca;
 }
 
+.hover:hover {
+  color: #c4b9a3;
+}
+
+.baghdad,
+.cairo{
+  font-family: 'Amiri', serif;
+  color: #c4b9a3;
+}
+
+.baghdad:hover{
+
+}
+
+.travelimg:hover {
+  webkit-filter: sepia(1) brightness(.95); /* Chrome, Safari, Opera */
+  filter: sepia(1) brightness(.95);
+}
+
+
+html{
+  scroll-behavior: smooth;;
+}
+
 /* img{
   display: inline;
   width:24px;

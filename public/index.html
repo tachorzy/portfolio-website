@@ -10,8 +10,9 @@
     <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lato:wght@400;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Lato:wght@400;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@1,700&display=swap" rel="stylesheet">
+
     <!--CSS style-->
     <link href="/public/styles.css" rel="stylesheet">
 </head>
@@ -21,19 +22,19 @@
         <nav class="navbar">
             <ul class="flex row mt-5 mb-16 ml-228" style="text-align:right">
                 <li class="mr-3">
-                    <a href="#skills"><b>Skills</b></a>
+                    <a href="#skills" class="hover"><b>Skills</b></a>
                 </li>
                 <li class="mr-3">
-                    <a href="#portfolio"> <b>Portfolio</b></a>
+                    <a href="#portfolio" class="hover"> <b>Portfolio</b></a>
                 </li>
                 <li class="mr-3">
-                    <a href="#travel"> <b>Travel</b></a>
+                    <a href="#travel" class="hover"> <b>Travel</b></a>
                 </li>
                 <li class="mr-3">
-                    <a href="#resume"><b>Résumé</b></a>
+                    <a href="#resume" class="hover"><b>Résumé</b></a>
                 </li>
                 <li class="mr-3">
-                    <a href="#contact-me"><b>Contact me</b></a>
+                    <a href="#contact-me" class="hover"><b>Contact me</b></a>
                 </li>
             </ul>
         </nav>
@@ -62,8 +63,12 @@
         <p>
             <b><img src="../images/mongodb.png" class="inline w-6 h-6">  MongoDB</img></b>
         </p>
+        <div class="ml-7">
+            <a href="#skills-page">
+                <pclass="hover"><b>More Skills ⮩</b></p>
 
-        <p class="ml-7" class="skills"><b>More Skills ⮩</b></p>
+            </a>
+        </div>
     </div>
     <div class="flex row">
         <div class="flex flex-col ">
@@ -74,7 +79,7 @@
 
         <img src="../images/T.png" class="ml-220 mb-2 w-32 h-32"></img>
     </div>
-    <h5 class="text-6xl font-bold ml-20 mt-16 mb-6" id="portfolio">Portfolio</h5>
+    <h5 class="text-6xl font-bold ml-20 mt-20 py-6" id="portfolio">Portfolio</h5>
     <div class="flex row">
         <li style="list-style-type: none">
             <img src="../images/StudyAesthetic.gif" class="ml-20 w-96 h-72"></img>
@@ -96,45 +101,56 @@
         <li style="list-style-type: none">
             <p class="text-3xl font-bold ml-20 mb-3">This Portfolio</p>
             <p class="text-lg ml-20 my-3 w-96">Yes... this portfolio website that you're on right now! I've taken the time to design and sharpen my
-                front end web development skills to present my professional work. While also sharing my passion to create. 
+                front end web development skills so I can present my professional work all in one place.
             </p>
             <p class="text-lg ml-20 w-96 mb-48">Here you'll find my personal projects, travel blogs and more!</p>
         </li>
     </div>
 
-    <h6 class="text-6xl font-bold ml-20 mt-28 mb-6" id="travel">Travel</h6>
+    <h6 class="text-6xl font-bold ml-20 mt-20 py-6" id="travel">Travel</h6>
     
     <div class="flex row">
         
         <li style="list-style-type: none">
-            <img src="../images/RashidStBaghdad.jpg" class="ml-20 w-76 h-96"></img>
-            <p class="text-xl font-bold ml-20 mt-3" style="  color: #c4b9a3;">Baghdad, Iraq</p>
-            <p class="text-base font-bold ml-20 mb-3" style="  color: #c4b9a3;">Summer 2022</p>
-            <p class="text-lg ml-20 my-3 w-76">A city of fabled glory. Baghdad has long been a bustling capital grappling with a troubling past of dictatorship and sectarianism. 
+            <a href="#baghdad">
+                <img src="../images/RashidStBaghdad.jpg" class="travelimg ml-20 w-76 h-96"></img>
+            </a>
+            <p class="text-xl font-bold ml-20 mt-3" style="color: #c4b9a3;">Baghdad, Iraq</p>
+            <p class="text-base font-bold ml-20 mb-3" style="color: #c4b9a3;">Summer 2022</p>
+            <p class="text-lg ml-20 my-3 w-76 pb-6">A city of fabled glory. Baghdad has long been a bustling capital grappling with a troubling past of dictatorship and sectarianism. 
                 However, recently the hopeful city has opened up to travelers once again.
             </p>
         </li>
 
         <li style="list-style-type: none">
-            <img src="../images/IbnTulun.jpg" class="ml-20 w-72 h-96"></img>
+            <a href="#cairo">
+                <img src="../images/IbnTulun.jpg" class="travelimg ml-20 w-72 h-96"/>
+            </a>
             <p class="text-xl font-bold ml-20 mt-3" style="  color: #c4b9a3;">Cairo, Egypt</p>
             <p class="text-base font-bold ml-20 mb-3" style="  color: #c4b9a3;">Summer 2022</p>
             <p class="text-lg ml-20 my-3 w-76"></p>
         </li>
 
         <li style="list-style-type: none">
-            <img src="../images/Mardin.jpg" class="ml-20 w-28 h-64"></img>
+            <a href="#mardin">
+                <img src="../images/Mardin.jpg" class="travelimg ml-20 w-28 h-64"></img>
+            </a>
             <p class="text-base font-bold ml-20 mt-3" style="  color: #c4b9a3;">Mardin, Turkey</p>
             <p class="text-xs font-bold ml-20 mb-3" style="  color: #c4b9a3;">Summer 2022</p>
         </li>
+
         <li style="list-style-type: none">
-            <img src="../images/BlueMosque.jpg" class="ml-20 w-28 h-64"></img>
+            <a href="#istanbul">
+                <img src="../images/BlueMosque.jpg" class="travelimg ml-20 w-28 h-64"></img>
+            </a>
             <p class="text-base font-bold ml-20 mt-3" style="  color: #c4b9a3;">Istanbul, Turkey</p>
             <p class="text-xs font-bold ml-20 mb-3" style="  color: #c4b9a3;">Summer 2022</p>
         </li>
+        
         <li style="list-style-type: none">
         </li>
+
+
     </div>
-    <h7 class="text-3xl font-bold ml-20 mt-64">More Arriving Soon...</h7>
 </body>
 </html>
