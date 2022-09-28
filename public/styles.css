@@ -15,7 +15,8 @@ h6,
 h7,
 h8,
 h9,
-p {
+p,
+a {
   font-family: 'Lato', sans-serif;
   color: #e3daca;
 }
@@ -25,7 +26,6 @@ h2 {
 }
 
 .accented{
-  /*color: #d6c5ad;*/
   color: #c4b9a3;
 }
 
@@ -35,6 +35,20 @@ h2 {
 }
 
 .hover:hover {
+  color: #c4b9a3;
+}
+
+.hoverAccented:hover {
+  color: #b5aa94;
+}
+
+button:hover{
+  background-color: #c4b9a3;
+  color: #b5aa94;
+}
+
+button{
+  background-color: #e3daca;
   color: #c4b9a3;
 }
 
