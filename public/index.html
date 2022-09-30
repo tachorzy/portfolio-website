@@ -19,78 +19,79 @@
 <!--NAVIGATION BAR-->
 <body style="background-color: #1c2324;">
     <header>
-        <nav class="navbar">
-            <ul class="flex row mt-5 mb-16 ml-228" style="text-align:right">
-                <li class="mr-3">
+        <nav>
+            <ul class="navbar">
+                <li class= "navItem">
                     <a href="#skills" class="hover"><b>Skills</b></a>
                 </li>
-                <li class="mr-3">
+                <li class= "navItem">
                     <a href="#portfolio" class="hover"> <b>Portfolio</b></a>
                 </li>
-                <li class="mr-3">
+                <li class= "navItem">
                     <a href="#travel" class="hover"> <b>Travel</b></a>
                 </li>
-                <li class="mr-3">
+                <li class= "navItem">
                     <a href="#resume" class="hover"><b>Résumé</b></a>
                 </li>
-                <li class="mr-3">
+                <li class= "navItem">
                     <a href="#contact-me" class="hover"><b>Contact me</b></a>
                 </li>
             </ul>
         </nav>
     </header>
     <!--NAME BRANDING-->
-    <h1 class="text-7xl font-bold ml-20">Tariq <br>Achor Zyad</br></h1>
+    <h1>Tariq <br>Achor Zyad</br></h1>
     <!--BIO BRANDING-->
-    <h2 class="text-2xl font-bold ml-20 mt-5" style="line-height:1.25em; color:#d9cfbd">
+    <h2>
         Hey, I'm a 3rd year Computer Science student at the University of Houston, <div class="accented">Exploring
             the vast world of tech.</div>
     </h2>
-    <h3 class="text-6xl font-bold ml-20 mt-5 mb-2">Skills</h3>
-    <div class="flex-col ml-20 text-xl" style="color:#d9cfbd">
+    <h3>Skills</h3>
+    <div class="skillsFlexBox">
         <p>
-            <b><img src="../images/python.png" class="inline w-6 h-6">  Python</img></b>
+            <b><img src="../images/python.png" class="skillImg">  Python</img></b>
         </p>
         
         <p>
-            <b><img src="../images/ts.png" class="inline w-6 h-6">  TypeScript</img></b>
+            <b><img src="../images/ts.png" class="skillImg">  TypeScript</img></b>
         </p>
         
         <p>
-            <b><img src="../images/react.png" class="inline w-6 h-6">  React</img></b>
+            <b><img src="../images/react.png" class="skillImg">  React</img></b>
         </p>
         
         <p>
-            <b><img src="../images/mongodb.png" class="inline w-6 h-6">  MongoDB</img></b>
+            <b><img src="../images/mongodb.png" class="skillImg">  MongoDB</img></b>
         </p>
-        <div class="ml-7">
+        <div class="moreSkills">
             <a href="#skills-page">
                 <p class="hover"><b>More Skills ⮩</b></p>
 
             </a>
         </div>
     </div>
-    <div class="flex row">
-        <div class="flex flex-col ">
-            <h4 class="text-4xl font-bold ml-20 mt-4 mb-2">Experience</h4>
-            <p class="text-lg font-bold ml-20">Aug 2022-Present</p>
-            <p class="text-lg ml-20" style="color: #c4b9a3;">Academic Support Assistant</p>
+    <div class="expGrid">
+        <div class="expFlexBoxCol">
+            <h4>Experience</h4>
+            <p class="expDate">Aug 2022-Present</p>
+            <p class="expTitle">Academic Support Assistant</p>
         </div>
-
-        <img src="../images/T.png" class="ml-220 mb-2 w-32 h-32"></img>
+        <div>
+            <img src="../images/T.png" class="logo"></img>
+        </div>
     </div>
-    <h5 class="text-6xl font-bold ml-20 mt-20 py-6" id="portfolio">Portfolio</h5>
-    <div class="flex row">
+    <h5 id="portfolio">Portfolio</h5>
+    <div class="portfolioFlexBox">
         <li style="list-style-type: none">
-            <img src="../images/StudyAesthetic.gif" class="ml-20 w-96 h-72"></img>
-            <p class="text-3xl font-bold ml-20 my-3">StudyUp, A Discord.js Bot</p>
-            <p class="text-lg ml-20 my-3 w-96">StudyUp is a Discord bot designed to help classmates form study groups. 
+            <img src="../images/StudyAesthetic.gif" class="projectImg"></img>
+            <p class="projectTitle">StudyUp, A Discord.js Bot</p>
+            <p class="projectText">StudyUp is a Discord bot designed to help classmates form study groups. 
                 Through StudyUp, students can announce, organize and create study groups from their class Discord servers.
             </p>
             <p>
-                <img src="../images/ts.png" class="ml-20 -mt-1 inline w-7 h-7"/>
-                <img src="../images/mongodb.png" class="ml-1 -mt-1 inline w-7 h-7"/>
-                <a class= "rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer"
+                <img src="../images/ts.png" class="projectTechLogo"/>
+                <img src="../images/mongodb.png" class="projectTechLogoAdj"/>
+                <a class= "addBotButton"
                 href="https://discord.com/oauth2/authorize?client_id=1017309019326652457&permissions=0&scope=bot%20applications.commands" target="_blank">
                 Add StudyUp
                 !</a>
@@ -99,13 +100,13 @@
         </li>
 
         <li style="list-style-type: none">
-            <img src="../images/warped-vinyl-anime.gif" class="ml-20 w-96 h-72"></img>
-            <p class="text-3xl font-bold ml-20 my-3">Beepo - Music Bot</p>
-            <p class="text-lg ml-20 my-3 w-96">Beepo is a music bot for Discord built in Javascript using Discord.js and the YouTube API v3. 
+            <img src="../images/warped-vinyl-anime.gif" class="projectImg"></img>
+            <p class="projectTitle">Beepo - Music Bot</p>
+            <p class="projectText">Beepo is a music bot for Discord built in Javascript using Discord.js and the YouTube API v3. 
                 User song requests will be searched through YouTube before being added to a queue.
-            <p class="mb-10">
-                <img src="../images/JS.png" class="ml-20 mr-1 -mt-1 inline w-7 h-7"/>
-                <a class= "rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer"
+            <p>
+                <img src="../images/JS.png" class="projectTechLogo"/>
+                <a class= "addBotButton"
                 href="https://discord.com/oauth2/authorize?client_id=927999385692954634&permissions=0&scope=bot%20applications.commands" target="_blank">
                 Add Beepo
                 !</a>
@@ -113,20 +114,20 @@
         </li>
         
         <li style="list-style-type: none">
-            <p class="text-3xl font-bold ml-20 mb-3">This Portfolio Website</p>
-            <p class="accented text-lg font-bold ml-20 mt-3 w-96">Yes, the website that you're on right now!</p>
-            <p class="text-lg ml-20 w-96">I've spent time designing and sharpening my
+            <p class="projectTitle">This Portfolio Website</p>
+            <p class="projectTextAccented">Yes, the website that you're on right now!</p>
+            <p class="projectTextNoSpace">I've spent time designing and sharpening my
                 front end web development skills so I can present my professional work all in one place.</p>
-            <p class="text-lg ml-20 w-96 mb-3">Here you'll find my personal projects, travel writings, and more!</p>
-            <p class="mb-7">
-                <img src="../images/html.png" class="ml-20 -mt-1 inline w-7 h-7"/>
-                <img src="../images/tailwind.png" class="ml-2 -mt-1 inline w-7 h-7"/>
+            <p class="projectText">Here you'll find my personal projects, travel writings, and more!</p>
+            <p>
+                <img src="../images/html.png" class="projectTechLogo"/>
+                <img src="../images/tailwind.png" class="projectTechLogoAdj"/>
             </p>
-            <a class="text-7xl font-bold" href="#projects">
-                <p class="hover ml-20">
+            <a href="#projects">
+                <p class="hover moreProjectsTitle">
                     Check Out
                 </p>
-                <p class="hoverAccented accented ml-20">More ⮩</p>
+                <p class="hoverAccented accented moreProjectsTitle">More ⮩</p>
             </a>
         </li>
 

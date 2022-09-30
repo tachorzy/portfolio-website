@@ -5,3 +5,193 @@
 .btn{
     @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer
 }
+
+@layer components{
+    .ml-100{
+        margin-left: 30rem;
+    }
+    .ml-102{
+        margin-left: 36rem;
+    }
+    .ml-104{
+        margin-left: 42rem;
+    }
+    .ml-106{
+        margin-left: 48rem;
+    }
+    .ml-220 {
+        margin-left: 66rem;
+    }
+    .ml-228{
+        margin-left: 72rem;
+    }
+}
+
+h1,
+h3,
+h4,
+h5,
+h6,
+h7,
+h8,
+h9,
+p,
+a {
+  font-family: 'Lato', sans-serif;
+  color: #e3daca;
+}
+
+h1{
+    @apply text-7xl font-bold ml-24 pt-2;
+}
+
+h2 {
+    @apply text-2xl font-bold ml-24 mt-5;
+    font-family: 'Lato', sans-serif;
+    line-height:1.25em; 
+    color:#d9cfbd;
+}
+
+h3 {
+    @apply text-6xl font-bold ml-24 mt-5 mb-2;
+}
+
+h4 {
+    @apply text-4xl font-bold ml-24 mt-4 mb-2;
+}
+
+h5{
+    @apply text-6xl font-bold ml-24 mt-20 py-6;
+}
+
+.skillsFlexBox{
+    @apply flex-col ml-24 text-xl;
+    color:#d9cfbd;
+}
+
+.moreSkills{ @apply ml-7; }
+
+.skillImg{
+    @apply inline w-6 h-6;
+}
+
+.portfolioFlexBox{
+    @apply flex flex-row
+}
+
+.projectImg{
+    @apply ml-24 w-96 h-72;
+}
+
+.projectTitle{
+    @apply text-3xl font-bold ml-24 my-3;
+}
+
+.projectText{
+    @apply text-lg ml-24 my-3 w-96;
+}
+
+.projectTextNoSpace{
+    @apply text-lg ml-24 w-96;
+}
+
+.projectTextAccented{
+    @apply text-lg font-bold ml-24 mt-3 w-96;
+    color: #c4b9a3;
+}
+
+.projectTechLogo{
+    @apply ml-24 -mt-1 inline w-7 h-7;
+}
+
+.projectTechLogoAdj{
+    @apply ml-1 -mt-1 inline w-7 h-7;
+}
+
+.addBotButton{
+   @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer;
+}
+
+.moreProjectsTitle{
+    @apply text-7xl font-bold ml-24;
+}
+
+
+.accented{
+  color: #c4b9a3;
+}
+
+.navbar{
+  @apply flex flex-row mt-5 mb-16 ml-228;
+  font-family: 'Lato', sans-serif;
+  color: #e3daca;
+  text-align:right;
+}
+
+.navItem{
+    @apply mr-3;
+}
+
+.hover:hover {
+  color: #c4b9a3;
+}
+
+.hoverAccented:hover {
+  color: #b5aa94;
+}
+
+.expGrid{
+    @apply grid grid-cols-2 gap-2 
+}
+
+.expFlexBoxRow{
+    @apply flex flex-row;
+}
+
+.expFlexBoxCol{
+    @apply flex flex-col;
+}
+
+.expDate{
+    @apply text-lg font-bold ml-24;
+}
+
+.expTitle{
+    @apply text-lg ml-24;
+    color: #c4b9a3;
+}
+
+.logo{
+    @apply ml-102 mb-2 w-32 h-32;
+}
+
+
+button:hover{
+  background-color: #c4b9a3;
+  color: #b5aa94;
+}
+
+button{
+  background-color: #e3daca;
+  color: #c4b9a3;
+}
+
+.baghdad,
+.cairo{
+  font-family: 'Amiri', serif;
+  color: #c4b9a3;
+}
+
+.baghdad:hover{
+
+}
+
+.travelimg:hover {
+  webkit-filter: sepia(1) brightness(.95); /* Chrome, Safari, Opera */
+  filter: sepia(1) brightness(.95);
+}
+
+
+html{
+  scroll-behavior: smooth;;
+}
