@@ -7,6 +7,10 @@
 }
 
 @layer components{
+    .w-76{
+        width: 19rem;
+    }
+
     .ml-100{
         margin-left: 30rem;
     }
@@ -60,7 +64,7 @@ h4 {
     @apply text-4xl font-bold ml-24 mt-4 mb-2;
 }
 
-h5{
+h5, h6, h7 {
     @apply text-6xl font-bold ml-24 mt-20 py-6;
 }
 
@@ -76,36 +80,36 @@ h5{
 }
 
 .portfolioFlexBox{
-    @apply flex flex-row
+    @apply flex flex-row ml-24 gap-x-24
 }
 
 .projectImg{
-    @apply ml-24 w-96 h-72;
+    @apply rounded-lg w-96 h-72 mb-3;
 }
 
 .projectTitle{
-    @apply text-3xl font-bold ml-24 my-3;
+    @apply text-3xl font-bold mb-2 py-3;
 }
 
 .projectText{
-    @apply text-lg ml-24 my-3 w-96;
+    @apply text-lg mb-3 w-96;
 }
 
 .projectTextNoSpace{
-    @apply text-lg ml-24 w-96;
+    @apply text-lg w-96;
 }
 
 .projectTextAccented{
-    @apply text-lg font-bold ml-24 mt-3 w-96;
+    @apply text-lg font-bold mt-3 w-96;
     color: #c4b9a3;
 }
 
-.projectTechLogo{
-    @apply ml-24 -mt-1 inline w-7 h-7;
+.techLogosFlexBox{
+    @apply flex flex-row gap-x-1
 }
 
-.projectTechLogoAdj{
-    @apply ml-1 -mt-1 inline w-7 h-7;
+.projectTechLogo{
+    @apply -mt-1 inline w-7 h-7 mb-6;
 }
 
 .addBotButton{
@@ -113,7 +117,47 @@ h5{
 }
 
 .moreProjectsTitle{
-    @apply text-7xl font-bold ml-24;
+    @apply text-7xl font-bold;
+}
+
+.travelFlexBox{
+    @apply flex flex-row ml-24 gap-x-16 mb-20;
+}
+
+.travelImgWide{
+    @apply rounded-md w-76 h-96;
+}
+
+.travelImgWideSmall{
+    @apply rounded-md mb-3 w-44 h-60;
+}
+
+.travelImgTall{
+    @apply rounded-md w-44 h-96;
+}
+
+.travelBlogTitle{
+    @apply text-xl font-bold mt-3;
+}
+
+.travelBlogDate{
+    @apply accented text-base font-bold mb-2;
+}
+
+.travelBlogBio{
+    @apply text-lg my-3 w-76 pb-6;
+}
+
+.travelBlogTitleSmall{
+    @apply accented text-base font-bold mt-3 w-48;
+}
+
+.travelBlogDateSmall{
+    @apply text-sm font-bold mb-3
+}
+
+.moreTravelTitle{
+    @apply text-5xl font-bold w-44
 }
 
 
@@ -186,7 +230,10 @@ button{
 
 }
 
-.travelimg:hover {
+.travelImgWide:hover,
+.travelImgWideSmall:hover,
+.travelImgTall:hover
+{
   webkit-filter: sepia(1) brightness(.95); /* Chrome, Safari, Opera */
   filter: sepia(1) brightness(.95);
 }
