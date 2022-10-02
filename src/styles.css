@@ -79,6 +79,10 @@ h5, h6, h7 {
     @apply inline w-6 h-6;
 }
 
+.skillMongoImg{
+    @apply inline w-3 h-6 ml-2;
+}
+
 .portfolioFlexBox{
     @apply flex flex-row ml-24 gap-x-24
 }
@@ -110,6 +114,10 @@ h5, h6, h7 {
 
 .projectTechLogo{
     @apply -mt-1 inline w-7 h-7 mb-6;
+}
+
+.projectMongoLogo{
+    @apply -mt-1 inline w-3 h-7 mb-6 ml-1.5;
 }
 
 .addBotButton{
@@ -157,13 +165,23 @@ h5, h6, h7 {
 }
 
 .moreTravelTitle{
-    @apply text-5xl font-bold w-44
+    @apply text-5xl font-bold
 }
 
 
 .accented{
   color: #c4b9a3;
 }
+
+.link{
+    color: #b5aa94;
+    text-decoration: underline; 
+}
+
+.link:hover{
+    background-color: rgb(181, 170, 148,0.2)
+}
+
 
 .navbar{
   @apply flex flex-row mt-5 mb-16 ml-228;
@@ -236,6 +254,10 @@ button{
 {
   webkit-filter: sepia(1) brightness(.95); /* Chrome, Safari, Opera */
   filter: sepia(1) brightness(.95);
+}
+
+.contact{
+    @apply text-2xl ml-24 mb-24 py-3 leading-10
 }
 
 

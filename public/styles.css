@@ -643,6 +643,13 @@ h5,  h6,  h7 {
   width: 1.5rem;
 }
 
+.skillMongoImg {
+  margin-left: 0.5rem;
+  display: inline;
+  height: 1.5rem;
+  width: 0.75rem;
+}
+
 .portfolioFlexBox {
   margin-left: 6rem;
   display: flex;
@@ -702,6 +709,15 @@ h5,  h6,  h7 {
   display: inline;
   height: 1.75rem;
   width: 1.75rem;
+}
+
+.projectMongoLogo {
+  margin-top: -0.25rem;
+  margin-bottom: 1.5rem;
+  margin-left: 0.375rem;
+  display: inline;
+  height: 1.75rem;
+  width: 0.75rem;
 }
 
 .addBotButton {
@@ -792,7 +808,6 @@ h5,  h6,  h7 {
 }
 
 .moreTravelTitle {
-  width: 11rem;
   font-size: 3rem;
   line-height: 1;
   font-weight: 700;
@@ -800,6 +815,15 @@ h5,  h6,  h7 {
 
 .accented{
   color: #c4b9a3;
+}
+
+.link{
+  color: #b5aa94;
+  text-decoration: underline;
+}
+
+.link:hover{
+  background-color: rgb(181, 170, 148,0.2)
 }
 
 .navbar{
@@ -888,6 +912,15 @@ button{
   webkit-filter: sepia(1) brightness(.95);
   /* Chrome, Safari, Opera */
   filter: sepia(1) brightness(.95);
+}
+
+.contact {
+  margin-left: 6rem;
+  margin-bottom: 6rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }
 
 html{
