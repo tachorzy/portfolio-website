@@ -286,6 +286,12 @@ h5, h6, h7 {
     @apply xl:text-7xl xl:w-56;
 }
 
+.contact{
+    @apply text-2xl ml-24 mb-24 py-3 leading-10;
+    @apply xl:text-3xl xl:ml-36 xl:leading-relaxed;
+}
+
+
 .accented{
   color: #c4b9a3;
 }
@@ -337,11 +343,6 @@ button{
   webkit-filter: sepia(1) brightness(.95); /* Chrome, Safari, Opera */
   filter: sepia(1) brightness(.95);
 }
-
-.contact{
-    @apply text-2xl ml-24 mb-24 py-3 leading-10
-}
-
 
 html{
   scroll-behavior: smooth;;

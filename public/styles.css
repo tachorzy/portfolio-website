@@ -1154,6 +1154,24 @@ h5,  h6,  h7 {
   }
 }
 
+.contact {
+  margin-left: 6rem;
+  margin-bottom: 6rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+
+@media (min-width: 1280px) {
+  .contact {
+    margin-left: 9rem;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    line-height: 1.625;
+  }
+}
+
 .accented{
   color: #c4b9a3;
 }
@@ -1204,15 +1222,6 @@ button{
   webkit-filter: sepia(1) brightness(.95);
   /* Chrome, Safari, Opera */
   filter: sepia(1) brightness(.95);
-}
-
-.contact {
-  margin-left: 6rem;
-  margin-bottom: 6rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
 }
 
 html{
