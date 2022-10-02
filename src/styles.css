@@ -73,7 +73,6 @@ h5, h6, h7 {
     width: 100%;
 }
 
-
 .skillsFlexBox{
     @apply flex-col ml-24 text-xl;
     color:#d9cfbd;
