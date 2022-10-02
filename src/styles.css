@@ -84,19 +84,31 @@ h5, h6, h7 {
 }
 
 .portfolioFlexBox{
-    @apply flex flex-row ml-24 gap-x-24
+    @apply flex flex-row ml-24 gap-x-24;
 }
 
 .projectImg{
-    @apply rounded-lg w-96 h-72 mb-3;
+    @apply rounded-lg w-96 h-72 mb-6;
+}
+
+.projectImgSmall{
+    @apply rounded-lg w-56 h-32 mb-3;
+}
+
+.projectTitleSmall{
+    @apply text-2xl font-bold mb-0.5 pb-0.5;
+}
+
+.projectTextSmall{
+    @apply text-base mb-3 w-96;
 }
 
 .projectTitle{
-    @apply text-3xl font-bold mb-2 py-3;
+    @apply text-3xl font-bold mb-2 pb-2;
 }
 
 .projectText{
-    @apply text-lg mb-3 w-96;
+    @apply text-xl mb-3 w-96;
 }
 
 .projectTextNoSpace{
@@ -104,12 +116,21 @@ h5, h6, h7 {
 }
 
 .projectTextAccented{
-    @apply text-lg font-bold mt-3 w-96;
+    @apply text-lg font-bold w-96;
     color: #c4b9a3;
 }
 
+.projectTextSmallAccented{
+   @apply text-base font-bold w-96;
+   color: #c4b9a3;
+}
+
 .techLogosFlexBox{
-    @apply flex flex-row gap-x-1
+    @apply flex flex-row gap-x-1.5
+}
+
+.projectGitLogo{
+    @apply -mt-1 inline w-7 h-7 mb-6;
 }
 
 .projectTechLogo{
@@ -117,7 +138,7 @@ h5, h6, h7 {
 }
 
 .projectMongoLogo{
-    @apply -mt-1 inline w-3 h-7 mb-6 ml-1.5;
+    @apply -mt-1 inline w-3 h-7 mb-6 ml-1;
 }
 
 .addBotButton{
@@ -168,7 +189,6 @@ h5, h6, h7 {
     @apply text-5xl font-bold
 }
 
-
 .accented{
   color: #c4b9a3;
 }
@@ -194,7 +214,8 @@ h5, h6, h7 {
     @apply mr-3;
 }
 
-.hover:hover {
+.hover:hover, 
+.addBotButton:hover {
   color: #c4b9a3;
 }
 
@@ -250,7 +271,9 @@ button{
 
 .travelImgWide:hover,
 .travelImgWideSmall:hover,
-.travelImgTall:hover
+.travelImgTall:hover,
+.projectImg:hover,
+.projectImgSmall:hover
 {
   webkit-filter: sepia(1) brightness(.95); /* Chrome, Safari, Opera */
   filter: sepia(1) brightness(.95);

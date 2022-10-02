@@ -659,16 +659,37 @@ h5,  h6,  h7 {
 }
 
 .projectImg {
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
   height: 18rem;
   width: 24rem;
   border-radius: 0.5rem;
 }
 
+.projectImgSmall {
+  margin-bottom: 0.75rem;
+  height: 8rem;
+  width: 14rem;
+  border-radius: 0.5rem;
+}
+
+.projectTitleSmall {
+  margin-bottom: 0.125rem;
+  padding-bottom: 0.125rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.projectTextSmall {
+  margin-bottom: 0.75rem;
+  width: 24rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .projectTitle {
   margin-bottom: 0.5rem;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 700;
@@ -677,7 +698,7 @@ h5,  h6,  h7 {
 .projectText {
   margin-bottom: 0.75rem;
   width: 24rem;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -688,7 +709,6 @@ h5,  h6,  h7 {
 }
 
 .projectTextAccented {
-  margin-top: 0.75rem;
   width: 24rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -696,11 +716,27 @@ h5,  h6,  h7 {
   color: #c4b9a3;
 }
 
+.projectTextSmallAccented {
+  width: 24rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  color: #c4b9a3;
+}
+
 .techLogosFlexBox {
   display: flex;
   flex-direction: row;
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
+  -moz-column-gap: 0.375rem;
+       column-gap: 0.375rem;
+}
+
+.projectGitLogo {
+  margin-top: -0.25rem;
+  margin-bottom: 1.5rem;
+  display: inline;
+  height: 1.75rem;
+  width: 1.75rem;
 }
 
 .projectTechLogo {
@@ -714,7 +750,7 @@ h5,  h6,  h7 {
 .projectMongoLogo {
   margin-top: -0.25rem;
   margin-bottom: 1.5rem;
-  margin-left: 0.375rem;
+  margin-left: 0.25rem;
   display: inline;
   height: 1.75rem;
   width: 0.75rem;
@@ -841,7 +877,8 @@ h5,  h6,  h7 {
   margin-right: 0.75rem;
 }
 
-.hover:hover {
+.hover:hover, 
+.addBotButton:hover {
   color: #c4b9a3;
 }
 
@@ -907,7 +944,9 @@ button{
 
 .travelImgWide:hover,
 .travelImgWideSmall:hover,
-.travelImgTall:hover
+.travelImgTall:hover,
+.projectImg:hover,
+.projectImgSmall:hover
 {
   webkit-filter: sepia(1) brightness(.95);
   /* Chrome, Safari, Opera */
