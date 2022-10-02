@@ -7,8 +7,29 @@
 }
 
 @layer components{
+    .w-42{
+        width:10.5rem;
+    }
     .w-76{
         width: 19rem;
+    }
+    .w-98{
+        width: 25rem;
+    }
+    .w-106{
+        width: 30rem;
+    }
+    .w-108{
+        width: 32rem; 
+    }
+    .h-90{
+        height: 22rem;
+    }
+    .h-106{
+        height: 26.5rem;
+    }
+    .h-108{
+        height: 32rem;
     }
     .ml-100{
         margin-left: 30rem;
@@ -22,7 +43,7 @@
     .ml-106{
         margin-left: 48rem;
     }
-    .ml-218 {
+    .ml-218{
         margin-left: 64rem;
     }
     .ml-220 {
@@ -31,8 +52,11 @@
     .ml-228{
         margin-left: 72rem;
     }
+    .ml-300{
+        margin-left: 92rem;
+    }
     .gap-x-22{
-        column-gap: 86px
+        column-gap: 86px;
     }
 }
 
@@ -52,10 +76,12 @@ a {
 
 h1{
     @apply text-7xl font-bold ml-24 pt-2;
+    @apply xl:text-8xl xl:ml-36 xl:pt-4;
 }
 
 h2 {
     @apply text-2xl font-bold ml-24 mt-5;
+    @apply xl:text-3xl xl:ml-36 xl:mt-7;
     font-family: 'Lato', sans-serif;
     line-height:1.25em; 
     color:#d9cfbd;
@@ -63,14 +89,17 @@ h2 {
 
 h3 {
     @apply text-6xl font-bold ml-24 mt-5 mb-2;
+    @apply xl:ml-36 xl:mt-8 xl:mb-4;
 }
 
 h4 {
     @apply text-4xl font-bold ml-24 mt-4 mb-2;
+    @apply xl:text-5xl xl:ml-36 xl:mt-8 xl:mb-4;
 }
 
 h5, h6, h7 {
     @apply text-6xl font-bold ml-24 mt-20 py-6;
+    @apply xl:ml-36 xl:mt-24 xl:py-9;
 }
 
 .front-page{
@@ -78,27 +107,75 @@ h5, h6, h7 {
     width: 100%;
 }
 
+.navbar{
+    @apply flex flex-row mt-5 mb-16 ml-228;
+    @apply xl:text-lg xl:mt-7 xl:mb-16 xl:ml-300;
+    font-family: 'Lato', sans-serif;
+    color: #e3daca;
+    text-align:right;
+  }
+  
+  .navItem{
+      @apply mr-3;
+  }
+
 .skillsFlexBox{
     @apply flex-col ml-24 text-xl;
+    @apply xl:ml-36 xl:text-2xl xl:gap-y-4;
     color:#d9cfbd;
 }
 
-.moreSkills{ @apply ml-7; }
+.moreSkills{ 
+    @apply ml-7; 
+    @apply xl:ml-10;
+}
 
 .skillImg{
     @apply inline w-6 h-6;
+    @apply xl:w-9 xl:h-9;
 }
 
 .skillMongoImg{
     @apply inline w-3 h-6 ml-2;
+    @apply xl:w-5 xl:h-10 mr-1;
 }
 
+.expGrid{
+    @apply grid grid-cols-2 gap-2;
+    @apply xl:grid-cols-4 xl:gap-4
+}
+
+.expFlexBoxRow{
+    @apply flex flex-row;
+}
+
+.expFlexBoxCol{
+    @apply flex flex-col;
+}
+
+.expDate{
+    @apply text-lg font-bold ml-24;
+    @apply xl:text-2xl xl:ml-36;
+}
+
+.expTitle{
+    @apply text-lg ml-24;
+    @apply xl:text-3xl xl:ml-36 xl:w-96;
+    color: #c4b9a3;
+}
+
+.logo{
+    @apply ml-102 mb-2 w-32 h-32;
+    @apply xl:ml-228 xl:w-44 xl:h-44;
+}
 .portfolioFlexBox{
     @apply flex flex-row ml-24 gap-x-22;
+    @apply xl:ml-36 xl:gap-x-20;
 }
 
 .projectImg{
     @apply rounded-lg w-96 h-72 mb-6;
+    @apply w-106 h-80;
 }
 
 .projectImgSmall{
@@ -115,18 +192,17 @@ h5, h6, h7 {
 
 .projectTitle{
     @apply text-3xl font-bold mb-2 pb-2;
+    @apply xl:text-4xl xl:mb-3;
 }
 
 .projectText{
     @apply text-xl mb-3 w-96;
-}
-
-.projectTextNoSpace{
-    @apply text-lg w-96;
+    @apply xl:text-2xl xl:mb-5 xl:w-106;
 }
 
 .projectTextAccented{
     @apply text-lg font-bold w-96;
+    @apply xl:text-2xl xl:w-106;
     color: #c4b9a3;
 }
 
@@ -136,7 +212,7 @@ h5, h6, h7 {
 }
 
 .techLogosFlexBox{
-    @apply flex flex-row gap-x-1.5
+    @apply flex flex-row gap-x-1.5;
 }
 
 .projectGitLogo{
@@ -145,14 +221,17 @@ h5, h6, h7 {
 
 .projectTechLogo{
     @apply -mt-1 inline w-7 h-7 mb-6;
+    @apply xl:w-9 xl:h-9 xl:mb-20;
 }
 
 .projectMongoLogo{
     @apply -mt-1 inline w-3 h-7 mb-6 ml-1;
+    @apply xl:w-4 xl:h-9 xl:mb-20 xl:ml-1.5;
 }
 
 .addBotButton{
    @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer;
+   @apply xl:text-sm;
 }
 
 .moreProjectsTitle{
@@ -161,34 +240,41 @@ h5, h6, h7 {
 
 .travelFlexBox{
     @apply flex flex-row ml-24 gap-x-16 mb-20;
+    @apply xl:ml-36 xl:gap-x-20;
 }
 
 .travelImgWide{
     @apply rounded-md w-76 h-96;
+    @apply xl:rounded-lg xl:w-96 xl:h-108;
 }
 
 .travelImgWideSmall{
-    @apply rounded-md mb-3 w-44 h-60;
+    @apply rounded-md mb-3 w-44 h-96;
+    @apply xl:w-60 xl:h-80;
 }
 
 .travelImgTall{
-    @apply rounded-md w-44 h-96;
+    @apply rounded-md w-56 h-108;
 }
 
 .travelBlogTitle{
     @apply text-xl font-bold mt-3;
+    @apply xl:text-2xl xl:mt-5;
 }
 
 .travelBlogDate{
     @apply accented text-base font-bold mb-2;
+    @apply xl:text-lg
 }
 
 .travelBlogBio{
     @apply text-lg my-3 w-76 pb-6;
+    @apply xl:text-xl xl:my-5 xl:w-96;
 }
 
 .travelBlogTitleSmall{
     @apply accented text-base font-bold mt-3 w-48;
+    @apply xl:text-lg xl:w-60;
 }
 
 .travelBlogDateSmall{
@@ -196,7 +282,8 @@ h5, h6, h7 {
 }
 
 .moreTravelTitle{
-    @apply text-5xl font-bold
+    @apply text-5xl font-bold;
+    @apply xl:text-7xl xl:w-56;
 }
 
 .accented{
@@ -212,18 +299,6 @@ h5, h6, h7 {
     background-color: rgb(181, 170, 148,0.2)
 }
 
-
-.navbar{
-  @apply flex flex-row mt-5 mb-16 ml-228;
-  font-family: 'Lato', sans-serif;
-  color: #e3daca;
-  text-align:right;
-}
-
-.navItem{
-    @apply mr-3;
-}
-
 .hover:hover, 
 .addBotButton:hover {
   color: #c4b9a3;
@@ -232,32 +307,6 @@ h5, h6, h7 {
 .hoverAccented:hover {
   color: #b5aa94;
 }
-
-.expGrid{
-    @apply grid grid-cols-2 gap-2 
-}
-
-.expFlexBoxRow{
-    @apply flex flex-row;
-}
-
-.expFlexBoxCol{
-    @apply flex flex-col;
-}
-
-.expDate{
-    @apply text-lg font-bold ml-24;
-}
-
-.expTitle{
-    @apply text-lg ml-24;
-    color: #c4b9a3;
-}
-
-.logo{
-    @apply ml-102 mb-2 w-32 h-32;
-}
-
 
 button:hover{
   background-color: #c4b9a3;
