@@ -10,7 +10,6 @@
     .w-76{
         width: 19rem;
     }
-
     .ml-100{
         margin-left: 30rem;
     }
@@ -23,11 +22,17 @@
     .ml-106{
         margin-left: 48rem;
     }
+    .ml-218 {
+        margin-left: 64rem;
+    }
     .ml-220 {
         margin-left: 66rem;
     }
     .ml-228{
         margin-left: 72rem;
+    }
+    .gap-x-22{
+        column-gap: 86px
     }
 }
 
@@ -89,7 +94,7 @@ h5, h6, h7 {
 }
 
 .portfolioFlexBox{
-    @apply flex flex-row ml-24 gap-x-24;
+    @apply flex flex-row ml-24 gap-x-22;
 }
 
 .projectImg{
@@ -151,7 +156,7 @@ h5, h6, h7 {
 }
 
 .moreProjectsTitle{
-    @apply text-7xl font-bold;
+    @apply text-5xl font-bold ml-218;
 }
 
 .travelFlexBox{

@@ -625,6 +625,11 @@ h5,  h6,  h7 {
   font-weight: 700;
 }
 
+.front-page{
+  height: 100vh;
+  width: 100%;
+}
+
 .skillsFlexBox {
   margin-left: 6rem;
   flex-direction: column;
@@ -650,12 +655,12 @@ h5,  h6,  h7 {
   width: 0.75rem;
 }
 
-.portfolioFlexBox {
+.portfolioFlexBox{
+  -moz-column-gap: 86px;
+       column-gap: 86px;
   margin-left: 6rem;
   display: flex;
-  flex-direction: row;
-  -moz-column-gap: 6rem;
-       column-gap: 6rem;
+  flex-direction: row
 }
 
 .projectImg {
@@ -770,7 +775,8 @@ h5,  h6,  h7 {
 }
 
 .moreProjectsTitle {
-  font-size: 4.5rem;
+  margin-left: 64rem;
+  font-size: 3rem;
   line-height: 1;
   font-weight: 700;
 }
