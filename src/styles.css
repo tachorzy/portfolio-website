@@ -76,30 +76,45 @@ a {
 
 h1{
     @apply text-7xl font-bold ml-24 pt-2;
-    @apply xl:text-8xl xl:ml-36 xl:pt-4;
+}
+
+.name2xl{
+    @apply text-8xl ml-36 pt-4;
 }
 
 h2 {
     @apply text-2xl font-bold ml-24 mt-5;
-    @apply xl:text-3xl xl:ml-36 xl:mt-7;
     font-family: 'Lato', sans-serif;
     line-height:1.25em; 
     color:#d9cfbd;
 }
 
+.bio2xl{
+    @apply text-3xl ml-36 mt-7;
+}
+
 h3 {
-    @apply text-6xl font-bold ml-24 mt-5 mb-2;
-    @apply xl:ml-36 xl:mt-8 xl:mb-4;
+    @apply text-6xl font-bold ml-24 mt-5 mb-2
+}
+
+.skills2xl{
+    @apply ml-36 mt-8 mb-4;
 }
 
 h4 {
-    @apply text-4xl font-bold ml-24 mt-4 mb-2;
-    @apply xl:text-5xl xl:ml-36 xl:mt-8 xl:mb-4;
+    @apply text-4xl font-bold ml-24 mt-4 mb-2
+}
+
+.exp2xl{
+    @apply text-5xl ml-36 mt-8 mb-4;
 }
 
 h5, h6, h7 {
-    @apply text-6xl font-bold ml-24 mt-20 py-6;
-    @apply xl:ml-36 xl:mt-24 xl:py-9;
+    @apply text-6xl font-bold ml-24 mt-20 py-6
+}
+
+.secTitles2xl{
+    @apply text-6xl font-bold ml-36 mt-24 py-9;
 }
 
 .front-page{
@@ -109,40 +124,62 @@ h5, h6, h7 {
 
 .navbar{
     @apply flex flex-row mt-5 mb-16 ml-228;
-    @apply xl:text-lg xl:mt-7 xl:mb-16 xl:ml-300;
     font-family: 'Lato', sans-serif;
     color: #e3daca;
     text-align:right;
-  }
-  
-  .navItem{
-      @apply mr-3;
-  }
+}
+
+.navbar2xl{
+    @apply flex flex-row text-lg mt-7 mb-16 ml-300;
+    font-family: 'Lato', sans-serif;
+    color: #e3daca;
+    text-align:right;
+}
+ 
+.navItem{
+    @apply mr-3;
+}
 
 .skillsFlexBox{
-    @apply flex-col ml-24 text-xl;
-    @apply xl:ml-36 xl:text-2xl xl:gap-y-4;
+    @apply flex-col ml-24 text-xl gap-y-4;
+    color:#d9cfbd;
+}
+
+.skillsFlexBox2xl{
+    @apply flex-col ml-36 text-2xl gap-y-4;
     color:#d9cfbd;
 }
 
 .moreSkills{ 
-    @apply ml-7; 
-    @apply xl:ml-10;
+    @apply ml-7
+}
+
+.moreSkills2xl{ 
+    @apply ml-10;
 }
 
 .skillImg{
-    @apply inline w-6 h-6;
-    @apply xl:w-9 xl:h-9;
+    @apply inline w-6 h-6
+}
+
+.skillImg2xl{
+    @apply inline w-9 h-9;
 }
 
 .skillMongoImg{
-    @apply inline w-3 h-6 ml-2;
-    @apply xl:w-5 xl:h-10 mr-1;
+    @apply inline w-3 h-6 ml-2
+}
+
+.skillMongoImg2xl{
+    @apply inline w-5 h-10 ml-2 mr-1
 }
 
 .expGrid{
-    @apply grid grid-cols-2 gap-2;
-    @apply xl:grid-cols-4 xl:gap-4
+    @apply grid grid-cols-2 gap-2
+}
+
+.expGrid2xl{
+    @apply grid grid-cols-2 gap-4
 }
 
 .expFlexBoxRow{
@@ -154,28 +191,53 @@ h5, h6, h7 {
 }
 
 .expDate{
-    @apply text-lg font-bold ml-24;
-    @apply xl:text-2xl xl:ml-36;
+    @apply text-lg font-bold ml-24
+}
+
+.expDate2xl{
+    @apply text-2xl font-bold ml-36;
 }
 
 .expTitle{
     @apply text-lg ml-24;
-    @apply xl:text-3xl xl:ml-36 xl:w-96;
+    color: #c4b9a3;
+}
+
+.expTitle2xl{
+    @apply text-3xl ml-36 w-96;
     color: #c4b9a3;
 }
 
 .logo{
-    @apply ml-102 mb-2 w-32 h-32;
-    @apply xl:ml-228 xl:w-44 xl:h-44;
+    @apply ml-102 mb-2 w-32 h-32
 }
+
+.logo2xl{
+    @apply ml-228 mb-2 w-44 h-44;
+}
+
+.projectMongoLogo{
+    @apply ml-102 mb-2 w-32 h-32
+}
+
+.projectMongoLogo2xl{
+    @apply ml-228 mb-2 w-44 h-44;
+}
+
 .portfolioFlexBox{
     @apply flex flex-row ml-24 gap-x-22;
-    @apply xl:ml-36 xl:gap-x-20;
+}
+
+.portfolioFlexBox2xl{
+    @apply flex flex-row ml-36 gap-x-20;
 }
 
 .projectImg{
     @apply rounded-lg w-96 h-72 mb-6;
-    @apply w-106 h-80;
+}
+
+.projectImg2xl{
+    @apply rounded-lg w-106 h-80 mb-6;
 }
 
 .projectImgSmall{
@@ -191,18 +253,28 @@ h5, h6, h7 {
 }
 
 .projectTitle{
-    @apply text-3xl font-bold mb-2 pb-2;
-    @apply xl:text-4xl xl:mb-3;
+    @apply text-3xl font-bold mb-2 pb-2
+}
+
+.projectTitle2xl{
+    @apply text-4xl font-bold mb-3 pb-2
 }
 
 .projectText{
-    @apply text-xl mb-3 w-96;
-    @apply xl:text-2xl xl:mb-5 xl:w-106;
+    @apply text-xl mb-3 w-96
+}
+
+.projectText2xl{
+    @apply text-2xl mb-5 w-106
 }
 
 .projectTextAccented{
     @apply text-lg font-bold w-96;
-    @apply xl:text-2xl xl:w-106;
+    color: #c4b9a3;
+}
+
+.projectTextAccented2xl{
+    @apply text-2xl font-bold w-106;
     color: #c4b9a3;
 }
 
@@ -215,23 +287,28 @@ h5, h6, h7 {
     @apply flex flex-row gap-x-1.5;
 }
 
-.projectGitLogo{
-    @apply -mt-1 inline w-7 h-7 mb-6;
+.projectTechLogo{
+    @apply -mt-1 inline w-7 h-7 mb-6
 }
 
-.projectTechLogo{
-    @apply -mt-1 inline w-7 h-7 mb-6;
-    @apply xl:w-9 xl:h-9 xl:mb-20;
+.projectTechLogo2xl{
+    @apply -mt-1 inline w-9 h-9 mb-20
 }
 
 .projectMongoLogo{
-    @apply -mt-1 inline w-3 h-7 mb-6 ml-1;
-    @apply xl:w-4 xl:h-9 xl:mb-20 xl:ml-1.5;
+    @apply -mt-1 inline w-3 h-7 mb-6 ml-1
+}
+
+.projectMongoLogo2xl{
+    @apply -mt-1 inline w-4 h-9 mb-20 ml-1.5
 }
 
 .addBotButton{
-   @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer;
-   @apply xl:text-sm;
+   @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer
+}
+
+.addBotButton2xl{
+    @apply rounded-full py-2 px-3 uppercase text-sm font-bold cursor-pointer
 }
 
 .moreProjectsTitle{
@@ -240,55 +317,86 @@ h5, h6, h7 {
 
 .travelFlexBox{
     @apply flex flex-row ml-24 gap-x-16 mb-20;
-    @apply xl:ml-36 xl:gap-x-20;
+}
+
+.travelFlexBox2xl{
+    @apply flex flex-row ml-36 gap-x-20 mb-20;
 }
 
 .travelImgWide{
     @apply rounded-md w-76 h-96;
-    @apply xl:rounded-lg xl:w-96 xl:h-108;
 }
 
-.travelImgWideSmall{
+.travelImgWide2xl{
+    @apply rounded-lg w-96 h-108;
+}
+
+.travelImgWideMini{
+    @apply rounded-md mb-3 w-44 h-60;
+}
+
+.travelImgWideMini2xl{
     @apply rounded-md mb-3 w-44 h-96;
-    @apply xl:w-60 xl:h-80;
 }
 
 .travelImgTall{
+    @apply rounded-md w-44 h-96;
+}
+
+.travelImgTall2xl{
     @apply rounded-md w-56 h-108;
 }
 
 .travelBlogTitle{
     @apply text-xl font-bold mt-3;
-    @apply xl:text-2xl xl:mt-5;
+}
+
+.travelBlogTitle2xl{
+    @apply text-2xl font-bold mt-5;
 }
 
 .travelBlogDate{
     @apply accented text-base font-bold mb-2;
-    @apply xl:text-lg
+}
+
+.travelBlogDate2xl{
+    @apply accented text-lg font-bold mb-2;
 }
 
 .travelBlogBio{
     @apply text-lg my-3 w-76 pb-6;
-    @apply xl:text-xl xl:my-5 xl:w-96;
+}
+
+.travelBlogBio2xl{
+    @apply text-xl my-5 w-96 pb-6;
 }
 
 .travelBlogTitleSmall{
     @apply accented text-base font-bold mt-3 w-48;
-    @apply xl:text-lg xl:w-60;
+}
+
+.travelBlogTitle2xl{
+    @apply accented text-lg font-bold mt-3 w-60;
 }
 
 .travelBlogDateSmall{
-    @apply text-sm font-bold mb-3
+    @apply text-sm font-bold mb-3;
 }
 
 .moreTravelTitle{
     @apply text-5xl font-bold;
-    @apply xl:text-7xl xl:w-56;
+}
+
+.moreTravelTitle2xl{
+    @apply font-bold text-7xl w-56;
 }
 
 .contact{
     @apply text-2xl ml-24 mb-24 py-3 leading-10;
-    @apply xl:text-3xl xl:ml-36 xl:leading-relaxed;
+}
+
+.contact2xl{
+    @apply 2xl:text-3xl 2xl:ml-36 mb-24 py-3 2xl:leading-relaxed;
 }
 
 

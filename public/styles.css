@@ -586,13 +586,11 @@ h1 {
   font-weight: 700;
 }
 
-@media (min-width: 1280px) {
-  h1 {
-    margin-left: 9rem;
-    padding-top: 1rem;
-    font-size: 6rem;
-    line-height: 1;
-  }
+.name2xl {
+  margin-left: 9rem;
+  padding-top: 1rem;
+  font-size: 6rem;
+  line-height: 1;
 }
 
 h2 {
@@ -601,21 +599,16 @@ h2 {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
-}
-
-@media (min-width: 1280px) {
-  h2 {
-    margin-left: 9rem;
-    margin-top: 1.75rem;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-}
-
-h2 {
   font-family: 'Lato', sans-serif;
   line-height:1.25em;
   color:#d9cfbd;
+}
+
+.bio2xl {
+  margin-left: 9rem;
+  margin-top: 1.75rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 h3 {
@@ -627,12 +620,10 @@ h3 {
   font-weight: 700;
 }
 
-@media (min-width: 1280px) {
-  h3 {
-    margin-left: 9rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
+.skills2xl {
+  margin-left: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 h4 {
@@ -644,14 +635,12 @@ h4 {
   font-weight: 700;
 }
 
-@media (min-width: 1280px) {
-  h4 {
-    margin-left: 9rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 3rem;
-    line-height: 1;
-  }
+.exp2xl {
+  margin-left: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  line-height: 1;
 }
 
 h5,  h6,  h7 {
@@ -664,13 +653,14 @@ h5,  h6,  h7 {
   font-weight: 700;
 }
 
-@media (min-width: 1280px) {
-  h5,  h6,  h7 {
-    margin-left: 9rem;
-    margin-top: 6rem;
-    padding-top: 2.25rem;
-    padding-bottom: 2.25rem;
-  }
+.secTitles2xl {
+  margin-left: 9rem;
+  margin-top: 6rem;
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 700;
 }
 
 .front-page{
@@ -684,19 +674,19 @@ h5,  h6,  h7 {
   margin-bottom: 4rem;
   display: flex;
   flex-direction: row;
+  font-family: 'Lato', sans-serif;
+  color: #e3daca;
+  text-align:right;
 }
 
-@media (min-width: 1280px) {
-  .navbar{
-    margin-left: 92rem;
-    margin-top: 1.75rem;
-    margin-bottom: 4rem;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-}
-
-.navbar{
+.navbar2xl{
+  margin-left: 92rem;
+  margin-top: 1.75rem;
+  margin-bottom: 4rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-family: 'Lato', sans-serif;
   color: #e3daca;
   text-align:right;
@@ -709,20 +699,18 @@ h5,  h6,  h7 {
 .skillsFlexBox {
   margin-left: 6rem;
   flex-direction: column;
+  row-gap: 1rem;
   font-size: 1.25rem;
   line-height: 1.75rem;
+  color:#d9cfbd;
 }
 
-@media (min-width: 1280px) {
-  .skillsFlexBox {
-    margin-left: 9rem;
-    row-gap: 1rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-}
-
-.skillsFlexBox{
+.skillsFlexBox2xl {
+  margin-left: 9rem;
+  flex-direction: column;
+  row-gap: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
   color:#d9cfbd;
 }
 
@@ -730,10 +718,8 @@ h5,  h6,  h7 {
   margin-left: 1.75rem;
 }
 
-@media (min-width: 1280px) {
-  .moreSkills {
-    margin-left: 2.5rem;
-  }
+.moreSkills2xl {
+  margin-left: 2.5rem;
 }
 
 .skillImg {
@@ -742,11 +728,10 @@ h5,  h6,  h7 {
   width: 1.5rem;
 }
 
-@media (min-width: 1280px) {
-  .skillImg {
-    height: 2.25rem;
-    width: 2.25rem;
-  }
+.skillImg2xl {
+  display: inline;
+  height: 2.25rem;
+  width: 2.25rem;
 }
 
 .skillMongoImg {
@@ -754,14 +739,14 @@ h5,  h6,  h7 {
   display: inline;
   height: 1.5rem;
   width: 0.75rem;
-  margin-right: 0.25rem;
 }
 
-@media (min-width: 1280px) {
-  .skillMongoImg {
-    height: 2.5rem;
-    width: 1.25rem;
-  }
+.skillMongoImg2xl {
+  margin-left: 0.5rem;
+  margin-right: 0.25rem;
+  display: inline;
+  height: 2.5rem;
+  width: 1.25rem;
 }
 
 .expGrid {
@@ -770,11 +755,10 @@ h5,  h6,  h7 {
   gap: 0.5rem;
 }
 
-@media (min-width: 1280px) {
-  .expGrid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 1rem;
-  }
+.expGrid2xl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
 }
 
 .expFlexBoxRow {
@@ -794,30 +778,25 @@ h5,  h6,  h7 {
   font-weight: 700;
 }
 
-@media (min-width: 1280px) {
-  .expDate {
-    margin-left: 9rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
+.expDate2xl {
+  margin-left: 9rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
 }
 
 .expTitle {
   margin-left: 6rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
+  color: #c4b9a3;
 }
 
-@media (min-width: 1280px) {
-  .expTitle {
-    margin-left: 9rem;
-    width: 24rem;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-}
-
-.expTitle{
+.expTitle2xl {
+  margin-left: 9rem;
+  width: 24rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
   color: #c4b9a3;
 }
 
@@ -828,12 +807,25 @@ h5,  h6,  h7 {
   width: 8rem;
 }
 
-@media (min-width: 1280px) {
-  .logo{
-    margin-left: 72rem;
-    height: 11rem;
-    width: 11rem;
-  }
+.logo2xl{
+  margin-left: 72rem;
+  margin-bottom: 0.5rem;
+  height: 11rem;
+  width: 11rem;
+}
+
+.projectMongoLogo{
+  margin-left: 36rem;
+  margin-bottom: 0.5rem;
+  height: 8rem;
+  width: 8rem;
+}
+
+.projectMongoLogo2xl{
+  margin-left: 72rem;
+  margin-bottom: 0.5rem;
+  height: 11rem;
+  width: 11rem;
 }
 
 .portfolioFlexBox{
@@ -844,19 +836,26 @@ h5,  h6,  h7 {
   flex-direction: row;
 }
 
-@media (min-width: 1280px) {
-  .portfolioFlexBox {
-    margin-left: 9rem;
-    -moz-column-gap: 5rem;
-         column-gap: 5rem;
-  }
+.portfolioFlexBox2xl {
+  margin-left: 9rem;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
 }
 
 .projectImg {
   margin-bottom: 1.5rem;
+  height: 18rem;
+  width: 24rem;
   border-radius: 0.5rem;
+}
+
+.projectImg2xl{
   width: 30rem;
+  margin-bottom: 1.5rem;
   height: 20rem;
+  border-radius: 0.5rem;
 }
 
 .projectImgSmall {
@@ -889,12 +888,12 @@ h5,  h6,  h7 {
   font-weight: 700;
 }
 
-@media (min-width: 1280px) {
-  .projectTitle {
-    margin-bottom: 0.75rem;
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
+.projectTitle2xl {
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
 }
 
 .projectText {
@@ -904,13 +903,11 @@ h5,  h6,  h7 {
   line-height: 1.75rem;
 }
 
-@media (min-width: 1280px) {
-  .projectText{
-    width: 30rem;
-    margin-bottom: 1.25rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
+.projectText2xl{
+  width: 30rem;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .projectTextAccented {
@@ -918,17 +915,14 @@ h5,  h6,  h7 {
   font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 700;
+  color: #c4b9a3;
 }
 
-@media (min-width: 1280px) {
-  .projectTextAccented{
-    width: 30rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-}
-
-.projectTextAccented{
+.projectTextAccented2xl{
+  width: 30rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
   color: #c4b9a3;
 }
 
@@ -947,14 +941,6 @@ h5,  h6,  h7 {
        column-gap: 0.375rem;
 }
 
-.projectGitLogo {
-  margin-top: -0.25rem;
-  margin-bottom: 1.5rem;
-  display: inline;
-  height: 1.75rem;
-  width: 1.75rem;
-}
-
 .projectTechLogo {
   margin-top: -0.25rem;
   margin-bottom: 1.5rem;
@@ -963,12 +949,12 @@ h5,  h6,  h7 {
   width: 1.75rem;
 }
 
-@media (min-width: 1280px) {
-  .projectTechLogo {
-    margin-bottom: 5rem;
-    height: 2.25rem;
-    width: 2.25rem;
-  }
+.projectTechLogo2xl {
+  margin-top: -0.25rem;
+  margin-bottom: 5rem;
+  display: inline;
+  height: 2.25rem;
+  width: 2.25rem;
 }
 
 .projectMongoLogo {
@@ -980,13 +966,13 @@ h5,  h6,  h7 {
   width: 0.75rem;
 }
 
-@media (min-width: 1280px) {
-  .projectMongoLogo {
-    margin-bottom: 5rem;
-    margin-left: 0.375rem;
-    height: 2.25rem;
-    width: 1rem;
-  }
+.projectMongoLogo2xl {
+  margin-top: -0.25rem;
+  margin-bottom: 5rem;
+  margin-left: 0.375rem;
+  display: inline;
+  height: 2.25rem;
+  width: 1rem;
 }
 
 .addBotButton {
@@ -1002,11 +988,17 @@ h5,  h6,  h7 {
   text-transform: uppercase;
 }
 
-@media (min-width: 1280px) {
-  .addBotButton {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
+.addBotButton2xl {
+  cursor: pointer;
+  border-radius: 9999px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .moreProjectsTitle{
@@ -1025,12 +1017,13 @@ h5,  h6,  h7 {
        column-gap: 4rem;
 }
 
-@media (min-width: 1280px) {
-  .travelFlexBox {
-    margin-left: 9rem;
-    -moz-column-gap: 5rem;
-         column-gap: 5rem;
-  }
+.travelFlexBox2xl {
+  margin-left: 9rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
 }
 
 .travelImgWide{
@@ -1039,29 +1032,33 @@ h5,  h6,  h7 {
   border-radius: 0.375rem;
 }
 
-@media (min-width: 1280px) {
-  .travelImgWide{
-    height: 32rem;
-    width: 24rem;
-    border-radius: 0.5rem;
-  }
+.travelImgWide2xl{
+  height: 32rem;
+  width: 24rem;
+  border-radius: 0.5rem;
 }
 
-.travelImgWideSmall {
+.travelImgWideMini {
+  margin-bottom: 0.75rem;
+  height: 15rem;
+  width: 11rem;
+  border-radius: 0.375rem;
+}
+
+.travelImgWideMini2xl {
   margin-bottom: 0.75rem;
   height: 24rem;
   width: 11rem;
   border-radius: 0.375rem;
 }
 
-@media (min-width: 1280px) {
-  .travelImgWideSmall {
-    height: 20rem;
-    width: 15rem;
-  }
+.travelImgTall {
+  height: 24rem;
+  width: 11rem;
+  border-radius: 0.375rem;
 }
 
-.travelImgTall{
+.travelImgTall2xl{
   height: 32rem;
   width: 14rem;
   border-radius: 0.375rem;
@@ -1074,12 +1071,11 @@ h5,  h6,  h7 {
   font-weight: 700;
 }
 
-@media (min-width: 1280px) {
-  .travelBlogTitle {
-    margin-top: 1.25rem;
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
+.travelBlogTitle2xl {
+  margin-top: 1.25rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
 }
 
 .travelBlogDate {
@@ -1090,11 +1086,12 @@ h5,  h6,  h7 {
   color: #c4b9a3;
 }
 
-@media (min-width: 1280px) {
-  .travelBlogDate {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
+.travelBlogDate2xl {
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: #c4b9a3;
 }
 
 .travelBlogBio{
@@ -1106,14 +1103,13 @@ h5,  h6,  h7 {
   line-height: 1.75rem;
 }
 
-@media (min-width: 1280px) {
-  .travelBlogBio {
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    width: 24rem;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
+.travelBlogBio2xl {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  width: 24rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .travelBlogTitleSmall {
@@ -1125,12 +1121,13 @@ h5,  h6,  h7 {
   color: #c4b9a3;
 }
 
-@media (min-width: 1280px) {
-  .travelBlogTitleSmall {
-    width: 15rem;
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
+.travelBlogTitle2xl {
+  margin-top: 0.75rem;
+  width: 15rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: #c4b9a3;
 }
 
 .travelBlogDateSmall {
@@ -1146,12 +1143,11 @@ h5,  h6,  h7 {
   font-weight: 700;
 }
 
-@media (min-width: 1280px) {
-  .moreTravelTitle {
-    width: 14rem;
-    font-size: 4.5rem;
-    line-height: 1;
-  }
+.moreTravelTitle2xl {
+  width: 14rem;
+  font-size: 4.5rem;
+  line-height: 1;
+  font-weight: 700;
 }
 
 .contact {
@@ -1163,8 +1159,14 @@ h5,  h6,  h7 {
   line-height: 2.5rem;
 }
 
-@media (min-width: 1280px) {
-  .contact {
+.contact2xl {
+  margin-bottom: 6rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+@media (min-width: 1536px) {
+  .contact2xl {
     margin-left: 9rem;
     font-size: 1.875rem;
     line-height: 2.25rem;
