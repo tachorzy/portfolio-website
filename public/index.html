@@ -19,10 +19,10 @@
 </head>
 <!--NAVIGATION BAR-->
 
-<body style="background-color: #1c2324;">
+<body class="layout-container" style="background-color: #1c2324;">
     <section class="front-page">
         <header>
-            <nav>
+            <nav class="nav-grid">
                 <ul class="navbar 2xl:navbar2xl">
                     <li class="navItem">
                         <a href="#skills" class="hover"><b>Skills</b></a>
@@ -46,33 +46,53 @@
         <!--NAME BRANDING-->
         <h1 class="2xl:name2xl">Tariq <br>Achor Zyad</br></h1>
         <!--BIO BRANDING-->
-        <h2 class="2xl:bio2xl">
+        <h2>
             Hey, I'm a 3rd year Computer Science student at the University of Houston, <div class="accented">Exploring
                 the vast world of tech.</div>
         </h2>
         <h3 class="2xl:skills2xl">Skills</h3>
         <div class="skillsFlexBox 2xl:skillsFlexBox2xl">
-            <p>
-                <b><img src="../images/python.png" class="skillImg 2xl:skillImg2xl"> Python</img></b>
-            </p>
+            <li style="list-style-type: none">
+                <details>
+                    <summary class="hover">
+                        <b><img src="../images/python.png" class="skillImg 2xl:skillImg2xl"> Python</img></b>
+                    </summary>
+                    <p class="skill-description">I'm very proficient in Python.   </p>
+                </details>
+            </li>
 
-            <p>
-                <b><img src="../images/ts.png" class="skillImg 2xl:skillImg2xl"> TypeScript</img></b>
-            </p>
+            <li style="list-style-type: none">
+                <details>
+                    <summary class="hover">
+                        <b><img src="../images/ts.png" class="skillImg 2xl:skillImg2xl"> TypeScript</img></b>
+                    </summary>
+                    <p class="skill-description">I'm proficient in Typescript.</p>
+                </details>
+            </li>
 
-            <p>
-                <b><img src="../images/react.png" class="skillImg 2xl:skillImg2xl"> React</img></b>
-            </p>
+            <li style="list-style-type: none">
+                <details>
+                    <summary class="hover">
+                        <b><img src="../images/react.png" class="skillImg 2xl:skillImg2xl"> React</img></b>
+                    </summary>
+                    <p class="skill-description">I'm learning React</p>
+                </details>
+            </li>
 
-            <p>
-                <b><img src="../images/mongodb.png" class="skillMongoImg 2xl:skillMongoImg2xl">&nbsp&nbspMongoDB</img></b>
-            </p>
-            <div class="moreSkills">
+            <li style="list-style-type: none">
+                <details>
+                    <summary class="hover">
+                        <b><img src="../images/mongodb.png" class="skillMongoImg 2xl:skillMongoImg2xl">&nbsp&nbspMongoDB</img></b>
+                    </summary>
+                    <p class="skill-description"> MongoDB is my database of choice.</p>
+                </details>
+            </li>
+            <!-- <div class="moreSkills">
                 <a href="#skills-page">
                     <p class="hover"><b>More Skills ⮩</b></p>
 
                 </a>
-            </div>
+            </div> -->
         </div>
         <div class="expGrid 2xl:expGrid2xl">
             <div class="expFlexBoxCol">
@@ -80,7 +100,7 @@
                 <p class="expDate 2xl:expDate2xl">Aug 2022-Present</p>
                 <p class="expTitle 2xl:expTitle2xl">Academic Support Assistant</p>
             </div>
-            <div>
+            <div class="logoFlexBoxCol">
                 <img src="../images/T.png" class="logo"></img>
             </div>
         </div>
@@ -142,15 +162,8 @@
                     <img src="../images/html.png" class="projectTechLogo 2xl:projectTechLogo2xl" />
                     <img src="../images/tailwind.png" class="projectTechLogo 2xl:projectTechLogo2xl" />
                 </p>
-                <!-- <a href="#projects">
-                <p class="hover moreProjectsTitle">
-                    Check Out
-                </p>
-                <p class="hoverAccented accented moreProjectsTitle">More ⮩</p>
-            </a> -->
             </li>
         </div>
-        <!-- <h8 id="" class="moreProjectsTitle">Check Out More</h8> -->
     </section>
 
     <section>

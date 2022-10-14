@@ -564,6 +564,16 @@ video {
   text-transform: uppercase;
 }
 
+.layout-container{
+  /* @apply flex flex-col;
+    max-width: auto;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+    margin-right: auto;
+    margin-bottom: 6rem;
+    margin-left: auto; */
+}
+
 h1,
 h3,
 h4,
@@ -668,10 +678,30 @@ h5,  h6,  h7 {
   width: 100%;
 }
 
+.nav-grid {
+  padding: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+  .nav-grid {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .nav-grid {
+    margin-bottom: 1.5rem;
+  }
+}
+
 .navbar{
-  margin-left: 72rem;
-  margin-top: 1.25rem;
-  margin-bottom: 4rem;
+  /* @apply flex flex-row ml-222 mb-16; */
+  /* @apply flex flex-row justify-end mb-16 -mt-3; */
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: row;
   font-family: 'Lato', sans-serif;
@@ -722,6 +752,15 @@ h5,  h6,  h7 {
   margin-left: 2.5rem;
 }
 
+.skill-description {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  color: #c4b9a3;
+}
+
 .skillImg {
   display: inline;
   height: 1.5rem;
@@ -763,11 +802,13 @@ h5,  h6,  h7 {
 
 .expFlexBoxRow {
   display: flex;
+  flex: none;
   flex-direction: row;
 }
 
 .expFlexBoxCol {
   display: flex;
+  width: 24rem;
   flex-direction: column;
 }
 
@@ -800,18 +841,28 @@ h5,  h6,  h7 {
   color: #c4b9a3;
 }
 
-.logo{
-  margin-left: 36rem;
-  margin-bottom: 0.5rem;
-  height: 8rem;
-  width: 8rem;
+.logoFlexBoxCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-.logo2xl{
-  margin-left: 72rem;
+.logo {
+  position: absolute;
+  right: 0px;
+  margin-right: 2.5rem;
+  margin-bottom: 1rem;
+  height: 8rem;
+  width: 8rem;
+  /* @apply absolute bottom-0 right-0 mb-12 mr-10 w-32 h-32; */
+  /* ml-102 */
+}
+
+.logo2xl {
   margin-bottom: 0.5rem;
   height: 11rem;
   width: 11rem;
+  /* ml-228  */
 }
 
 .projectMongoLogo{
