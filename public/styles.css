@@ -752,7 +752,8 @@ h5,  h6,  h7 {
   margin-left: 2.5rem;
 }
 
-.skill-description {
+.skill-description{
+  width: 40rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   font-size: 0.875rem;

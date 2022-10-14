@@ -22,6 +22,9 @@
     .w-108{
         width: 32rem; 
     }
+    .w-112{
+        width: 40rem; 
+    }
     .h-90{
         height: 22rem;
     }
@@ -179,7 +182,7 @@ h5, h6, h7 {
 }
 
 .skill-description{
-    @apply text-sm font-semibold accented py-1;
+    @apply text-sm font-semibold accented py-1 w-112;
 }
 
 .skillImg{
