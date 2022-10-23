@@ -467,7 +467,7 @@ button{
   color: #c4b9a3;
 }
 
-.baghdad,
+/* .baghdad,
 .cairo{
   font-family: 'Amiri', serif;
   color: #c4b9a3;
@@ -475,10 +475,11 @@ button{
 
 .baghdad:hover{
 
-}
+} */
 
 .travelImgWide:hover,
-.travelImgWideSmall:hover,
+.travelImgWideMini:hover,
+.travelImgWideMini2xl:hover,
 .travelImgTall:hover,
 .projectImg:hover,
 .projectImgSmall:hover
