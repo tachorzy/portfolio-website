@@ -115,7 +115,7 @@ h4 {
 }
 
 h5, h6, h7 {
-    @apply text-6xl font-bold ml-24 mt-20 py-6
+    @apply text-6xl font-bold ml-24 mt-20 py-6 pt-16
 }
 
 .secTitles2xl{
@@ -128,15 +128,15 @@ h5, h6, h7 {
 }
 
 .navigation {
-    @apply sticky top-0 right-0 mr-6 mt-6;
+    @apply sticky top-0 right-0 mr-6 bg-shark w-full;
 }
 
 .nav-grid{
-    @apply p-6 xl:mb-2 2xl:mb-6;
+    @apply p-6 xl:mb-2 2xl:mb-6 bg-shark w-full;
 }
 
 .navbar{
-    @apply flex flex-row text-right text-dune;
+    @apply flex flex-row justify-end text-dune;
     font-family: 'Lato', sans-serif;
 }
 
@@ -333,28 +333,33 @@ h5, h6, h7 {
     @apply flex flex-row ml-36 gap-x-20 mb-20;
 }
 
+.mapChart {
+    @apply rounded-xl w-36 h-20;
+}
+
+
 .travelImgWide{
-    @apply rounded-md w-76 h-96;
+    @apply rounded-xl w-76 h-96;
 }
 
 .travelImgWide2xl{
-    @apply rounded-lg w-96 h-108;
+    @apply rounded-xl w-96 h-108;
 }
 
 .travelImgWideMini{
-    @apply rounded-md mb-3 w-44 h-60;
+    @apply rounded-xl mb-3 w-44 h-60;
 }
 
 .travelImgWideMini2xl{
-    @apply rounded-md mb-3 w-44 h-96;
+    @apply rounded-xl mb-3 w-44 h-96;
 }
 
 .travelImgTall{
-    @apply rounded-md w-44 h-96;
+    @apply rounded-xl w-44 h-96;
 }
 
 .travelImgTall2xl{
-    @apply rounded-md w-56 h-108;
+    @apply rounded-xl w-56 h-108;
 }
 
 .travelBlogTitle{
