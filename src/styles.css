@@ -333,10 +333,13 @@ h5, h6, h7 {
     @apply flex flex-row ml-36 gap-x-20 mb-20;
 }
 
-.mapChart {
-    @apply rounded-xl w-36 h-20;
+.travelInfoBox{
+    @apply mb-6 w-72 pb-3 border-l-4 border-mudbrick pl-5;
 }
 
+.travelInfoTitle{
+    @apply text-2xl font-semibold my-2 text-mudbrick;
+}
 
 .travelImgWide{
     @apply rounded-xl w-76 h-96;
@@ -363,7 +366,7 @@ h5, h6, h7 {
 }
 
 .travelBlogTitle{
-    @apply text-xl font-bold mt-3;
+    @apply text-xl font-bold mt-4;
 }
 
 .travelBlogTitle2xl{
