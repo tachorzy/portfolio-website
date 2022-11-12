@@ -76,8 +76,8 @@ h8,
 h9,
 p,
 a {
-  font-family: 'Lato', sans-serif;
-  color: #e3daca;
+    @apply text-dusty;
+    font-family: 'Lato', sans-serif;
 }
 
 h1{
@@ -89,10 +89,9 @@ h1{
 }
 
 h2 {
-    @apply text-2xl font-bold ml-24 mt-5;
+    @apply text-2xl font-bold ml-24 mt-5 text-sandstone;
     font-family: 'Lato', sans-serif;
     line-height:1.25em; 
-    color:#d9cfbd;
 }
 
 .bio2xl{
@@ -128,25 +127,22 @@ h5, h6, h7 {
     width: 100%;
 }
 
-.nav-grid{
-    @apply p-6 xl:mb-2 2xl:mb-6 sticky;
+.navigation {
+    @apply sticky top-0 right-0 mr-6 mt-6;
 }
 
+.nav-grid{
+    @apply p-6 xl:mb-2 2xl:mb-6;
+}
 
 .navbar{
-    /* @apply flex flex-row ml-222 mb-16; */
-    /* @apply flex flex-row justify-end mb-16 -mt-3; */
-    @apply sticky flex flex-row top-0 right-0 mr-6 mt-6 bg-;  
+    @apply flex flex-row text-right text-dune;
     font-family: 'Lato', sans-serif;
-    color: #e3daca;
-    text-align:right;
 }
 
 .navbar2xl{
-    @apply flex flex-row text-lg mt-7 mb-16 ml-300;
+    @apply flex flex-row text-lg mt-7 mb-16 ml-300 text-right text-dune;
     font-family: 'Lato', sans-serif;
-    color: #e3daca;
-    text-align:right;
 }
  
 .navItem{
@@ -154,13 +150,11 @@ h5, h6, h7 {
 }
 
 .skillsFlexBox{
-    @apply flex-col ml-24 text-xl gap-y-4;
-    color:#d9cfbd;
+    @apply flex-col ml-24 text-xl gap-y-4 text-sandstone;
 }
 
 .skillsFlexBox2xl{
-    @apply flex-col ml-36 text-2xl gap-y-4;
-    color:#d9cfbd;
+    @apply flex-col ml-36 text-2xl gap-y-4 text-sandstone;
 }
 
 .moreSkills{ 
@@ -216,13 +210,11 @@ h5, h6, h7 {
 }
 
 .expTitle{
-    @apply text-lg ml-24;
-    color: #c4b9a3;
+    @apply text-lg ml-24 text-dusty;
 }
 
 .expTitle2xl{
-    @apply text-3xl ml-36 w-96;
-    color: #c4b9a3;
+    @apply text-3xl ml-36 w-96 text-dusty;
 }
 
 .logoFlexBoxCol{
@@ -231,14 +223,10 @@ h5, h6, h7 {
 
 .logo{
     @apply absolute right-0 mr-10 mb-4 w-32 h-32;
-
-    /* @apply absolute bottom-0 right-0 mb-12 mr-10 w-32 h-32; */
-    /* ml-102 */
 }
 
 .logo2xl{
-    @apply mb-2 w-44 h-44;
-    /* ml-228  */
+    @apply absolute right-0 mb-2 w-44 h-44;
 }
 
 .projectMongoLogo{
@@ -294,18 +282,15 @@ h5, h6, h7 {
 }
 
 .projectTextAccented{
-    @apply text-lg font-bold w-96;
-    color: #c4b9a3;
+    @apply text-lg font-bold w-96 text-dusty;
 }
 
 .projectTextAccented2xl{
-    @apply text-2xl font-bold w-106;
-    color: #c4b9a3;
+    @apply text-2xl font-bold w-106 text-dusty;
 }
 
 .projectTextSmallAccented{
-   @apply text-base font-bold w-96;
-   color: #c4b9a3;
+   @apply text-base font-bold w-96 text-dusty;
 }
 
 .techLogosFlexBox{
@@ -426,11 +411,11 @@ h5, h6, h7 {
 
 
 .accented{
-  color: #c4b9a3;
+  @apply text-dusty
 }
 
 .link{
-    color: #b5aa94;
+    @apply text-mudbrick;
     text-decoration: underline; 
 }
 
@@ -456,16 +441,6 @@ button{
   background-color: #e3daca;
   color: #c4b9a3;
 }
-
-/* .baghdad,
-.cairo{
-  font-family: 'Amiri', serif;
-  color: #c4b9a3;
-}
-
-.baghdad:hover{
-
-} */
 
 .travelImgWide:hover,
 .travelImgWideMini:hover,
