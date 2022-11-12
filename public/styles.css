@@ -1307,6 +1307,10 @@ html{
     opacity: 0;
   }
 
+  25% {
+    opacity:0;
+  }
+
   100% {
     opacity: 1;
   }
@@ -1315,6 +1319,10 @@ html{
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
+  }
+
+  25% {
+    opacity:0;
   }
 
   100% {
