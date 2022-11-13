@@ -1084,6 +1084,7 @@ h5,  h6,  h7 {
   flex-direction: row;
   -moz-column-gap: 4rem;
        column-gap: 4rem;
+  overflow: hidden;
 }
 
 .travelFlexBox2xl {
@@ -1201,11 +1202,11 @@ h5,  h6,  h7 {
   line-height: 1.75rem;
 }
 
-.travelBlogTitleSmall {
+.travelBlogTitleSmall{
+  width: 19rem;
   margin-top: 0.75rem;
-  width: 12rem;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(196 185 163 / var(--tw-text-opacity));

@@ -326,7 +326,7 @@ h5, h6, h7 {
 }
 
 .travelFlexBox{
-    @apply flex flex-row ml-24 gap-x-16 mb-20;
+    @apply flex flex-row ml-24 gap-x-16 mb-20 overflow-hidden;
 }
 
 .travelFlexBox2xl{
@@ -390,7 +390,7 @@ h5, h6, h7 {
 }
 
 .travelBlogTitleSmall{
-    @apply accented text-base font-bold mt-3 w-48;
+    @apply accented text-xl font-bold mt-3 w-76;
 }
 
 .travelBlogTitle2xl{
