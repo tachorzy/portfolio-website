@@ -1258,17 +1258,15 @@ h5,  h6,  h7 {
 
 .contact {
   margin-left: 6rem;
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
   font-size: 1.5rem;
   line-height: 2.5rem;
 }
 
 .contact2xl {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
   padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 @media (min-width: 1536px) {
