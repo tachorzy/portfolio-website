@@ -136,17 +136,17 @@ h5, h6, h7 {
 }
 
 .navbar{
-    @apply flex flex-row justify-end text-dune;
+    @apply flex flex-row justify-end;
     font-family: 'Lato', sans-serif;
 }
 
 .navbar2xl{
-    @apply flex flex-row text-lg mt-7 mb-16 ml-300 text-right text-dune;
+    @apply flex flex-row text-lg mt-7 mb-16 ml-300 text-right;
     font-family: 'Lato', sans-serif;
 }
  
 .navItem{
-    @apply mr-3;
+    @apply mr-3 text-dune;
 }
 
 .skillsFlexBox{
@@ -436,7 +436,7 @@ h5, h6, h7 {
 }
 
 .hover:hover {
-  color: #c4b9a3;
+  @apply text-mudbrick;
 }
 
 .hoverAccented:hover {
