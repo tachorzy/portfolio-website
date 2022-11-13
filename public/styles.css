@@ -1079,7 +1079,7 @@ h5,  h6,  h7 {
 
 .travelFlexBox {
   margin-left: 6rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   display: flex;
   flex-direction: row;
   -moz-column-gap: 4rem;

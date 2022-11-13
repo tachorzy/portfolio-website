@@ -326,7 +326,7 @@ h5, h6, h7 {
 }
 
 .travelFlexBox{
-    @apply flex flex-row ml-24 gap-x-16 mb-20 overflow-hidden;
+    @apply flex flex-row ml-24 gap-x-16 mb-8 overflow-hidden;
 }
 
 .travelFlexBox2xl{
