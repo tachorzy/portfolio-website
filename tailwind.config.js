@@ -9,6 +9,7 @@ module.exports = {
           'dusty': '#c4b9a3',
           'sandstone': '#d9cfbd',
           'mudbrick': '#b5aa94',
+          'bark': '#5f5646',
         },
       },
     },

@@ -274,7 +274,7 @@ h5, h6, h7 {
 }
 
 .projectText{
-    @apply text-xl mb-3 w-96
+    @apply text-xl w-96
 }
 
 .projectText2xl{
@@ -294,7 +294,7 @@ h5, h6, h7 {
 }
 
 .techLogosFlexBox{
-    @apply flex flex-row gap-x-1.5;
+    @apply flex flex-row gap-x-1.5 mt-3; 
 }
 
 .projectTechLogo{
@@ -314,11 +314,11 @@ h5, h6, h7 {
 }
 
 .addBotButton{
-   @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer
+    @apply rounded-full py-1 px-2.5 ml-1 uppercase text-xs font-semibold cursor-pointer text-bark bg-dune;
 }
 
 .addBotButton2xl{
-    @apply rounded-full py-2 px-3 uppercase text-sm font-bold cursor-pointer
+    @apply rounded-full py-1 px-2.5 uppercase text-xs font-semibold cursor-pointer text-bark bg-dune;
 }
 
 .moreProjectsTitle{
@@ -366,7 +366,7 @@ h5, h6, h7 {
 }
 
 .travelBlogTitle{
-    @apply text-xl font-bold mt-4;
+    @apply text-2xl font-bold mt-4;
 }
 
 .travelBlogTitle2xl{
@@ -374,7 +374,7 @@ h5, h6, h7 {
 }
 
 .travelBlogDate{
-    @apply accented text-base font-bold mb-2;
+    @apply text-mudbrick text-sm font-bold mb-2;
 }
 
 .travelBlogDate2xl{
@@ -382,7 +382,7 @@ h5, h6, h7 {
 }
 
 .travelBlogBio{
-    @apply text-lg my-3 w-76 pb-6;
+    @apply text-lg mb-3 w-76;
 }
 
 .travelBlogBio2xl{
@@ -399,6 +399,10 @@ h5, h6, h7 {
 
 .travelBlogDateSmall{
     @apply text-sm font-bold mb-3;
+}
+
+.travelButton{
+    @apply text-bark text-xs font-semibold uppercase rounded-full px-2.5 py-1 bg-dune;
 }
 
 .moreTravelTitle{
@@ -431,8 +435,7 @@ h5, h6, h7 {
     background-color: rgb(181, 170, 148,0.2)
 }
 
-.hover:hover, 
-.addBotButton:hover {
+.hover:hover {
   color: #c4b9a3;
 }
 
@@ -440,14 +443,9 @@ h5, h6, h7 {
   color: #b5aa94;
 }
 
-button:hover{
-  background-color: #c4b9a3;
-  color: #b5aa94;
-}
-
-button{
-  background-color: #e3daca;
-  color: #c4b9a3;
+button:hover,
+.addBotButton:hover {
+    @apply bg-dusty text-bark;
 }
 
 .travelImgWide:hover,
