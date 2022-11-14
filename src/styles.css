@@ -88,6 +88,10 @@ h1{
     @apply text-8xl ml-36 pt-4;
 }
 
+.nameMobile {
+    @apply text-xl font-bold ml-5 pt-1 w-full;
+}
+
 h2 {
     @apply text-2xl font-bold ml-24 mt-5 text-sandstone;
     font-family: 'Lato', sans-serif;
