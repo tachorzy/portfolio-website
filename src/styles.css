@@ -277,7 +277,7 @@ h5, h6, h7 {
 }
 
 .projectText{
-    @apply lg:xl:text-xl leading-4 lg:xl:w-96 w-64
+    @apply lg:xl:text-xl leading-relaxed lg:xl:w-96 w-64
 }
 
 .projectText2xl{

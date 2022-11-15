@@ -1152,7 +1152,7 @@ h5,  h6,  h7 {
 
 .projectText {
   width: 16rem;
-  line-height: 1rem;
+  line-height: 1.625;
 }
 
 @media (min-width: 1024px) {
