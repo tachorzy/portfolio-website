@@ -743,7 +743,6 @@ h5,  h6,  h7 {
   width: 100%;
   --tw-bg-opacity: 1;
   background-color: rgb(28 35 36 / var(--tw-bg-opacity));
-  padding-bottom: 2.5rem;
 }
 
 .nav-grid {
@@ -1469,6 +1468,7 @@ h5,  h6,  h7 {
 }
 
 .travelButton {
+  margin-bottom: 2.25rem;
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(227 218 202 / var(--tw-bg-opacity));

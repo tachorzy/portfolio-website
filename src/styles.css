@@ -127,7 +127,7 @@ h5, h6, h7 {
 }
 
 .navigation {
-    @apply sticky top-0 right-0 mr-6 bg-shark w-full pb-10;
+    @apply sticky top-0 right-0 mr-6 bg-shark w-full;
 }
 
 .nav-grid{
@@ -401,7 +401,7 @@ h5, h6, h7 {
 }
 
 .travelButton{
-    @apply text-bark text-xs font-semibold uppercase rounded-full px-2.5 py-1 bg-dune;
+    @apply text-bark text-xs font-semibold uppercase rounded-full px-2.5 py-1 mb-9 bg-dune;
 }
 
 .moreTravelTitle{
