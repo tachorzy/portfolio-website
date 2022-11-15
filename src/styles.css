@@ -89,13 +89,12 @@ h1{
 }
 
 h2 {
-    @apply lg:xl:text-2xl text-lg font-bold lg:xl:ml-24 ml-12 mt-5 text-sandstone;
+    @apply lg:xl:text-2xl text-lg font-bold lg:leading-5 xl:leading-5 leading-6 lg:xl:ml-24 ml-12 mt-5 text-sandstone;
     font-family: 'Lato', sans-serif;
-    line-height:1.25em; 
 }
 
 .bio2xl{
-    @apply text-3xl ml-36 mt-7;
+    @apply text-3xl ml-36 mt-7 leading-5;
 }
 
 h3 {
@@ -222,7 +221,7 @@ h5, h6, h7 {
 }
 
 .logo{
-    @apply absolute lg:xl:right-0 lg:xl:mr-10 mb-4 lg:xl:w-32 lg:xl:h-32 w-14 h-14;
+    @apply absolute lg:xl:right-0 lg:xl:mr-10 mb-4 lg:xl:w-32 lg:xl:h-32 w-12 h-12;
 }
 
 .logo2xl{
