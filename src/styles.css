@@ -99,7 +99,7 @@ h2 {
 }
 
 h3 {
-    @apply lg:xl:text-6xl text-5xl font-bold lg:xl:ml-24 ml-12 mt-5 mb-2
+    @apply lg:xl:text-6xl text-4xl font-bold lg:xl:ml-24 ml-12 mt-5 mb-2
 }
 
 .skills2xl{
@@ -136,7 +136,7 @@ h5, h6, h7 {
 }
 
 .navbar{
-    @apply flex flex-row justify-end xl:lg:text-base text-xs;
+    @apply flex flex-row justify-end lg:xl:text-base text-xs;
     font-family: 'Lato', sans-serif;
 }
 
@@ -150,7 +150,7 @@ h5, h6, h7 {
 }
 
 .skillsFlexBox{
-    @apply flex-col ml-24 text-xl gap-y-4 text-sandstone;
+    @apply flex-col lg:xl:ml-24 ml-12 lg:xl:text-xl text-lg gap-y-4 text-sandstone;
 }
 
 .skillsFlexBox2xl{
@@ -166,7 +166,7 @@ h5, h6, h7 {
 }
 
 .skill-description{
-    @apply text-sm font-semibold accented py-1 w-112;
+    @apply lg:xl:text-sm text-xs font-semibold accented py-1 lg:xl:w-112 w-72 mr-4;
 }
 
 .skillImg{
@@ -202,7 +202,7 @@ h5, h6, h7 {
 }
 
 .expDate{
-    @apply text-lg font-bold ml-24
+    @apply text-lg font-bold lg:xl:ml-24 ml-12
 }
 
 .expDate2xl{
@@ -210,7 +210,7 @@ h5, h6, h7 {
 }
 
 .expTitle{
-    @apply text-lg ml-24 text-dusty;
+    @apply text-lg lg:xl:ml-24 ml-12 text-dusty;
 }
 
 .expTitle2xl{
@@ -222,7 +222,7 @@ h5, h6, h7 {
 }
 
 .logo{
-    @apply absolute right-0 mr-10 mb-4 w-32 h-32;
+    @apply absolute lg:xl:right-0 lg:xl:mr-10 sm:md:mr-4 xl:lg:mb-4 lg:xl:w-32 lg:xl:h-32 w-8 h-8 sm:md:bottom-0 sm:md:mt-20;
 }
 
 .logo2xl{
