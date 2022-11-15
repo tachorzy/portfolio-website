@@ -325,7 +325,7 @@ h5, h6, h7 {
 }
 
 .travelFlexBox{
-    @apply flex lg:xl:flex-row flex-col lg:xl:ml-24 ml-12 gap-x-16 mb-8 lg:xl:overflow-hidden lg:xl:text-base text-sm;
+    @apply flex lg:xl:flex-row flex-col lg:xl:ml-24 ml-12 gap-x-16 mb-8 lg:xl:overflow-hidden lg:xl:text-base text-sm leading-5;
 }
 
 .travelFlexBox2xl{
@@ -419,7 +419,6 @@ h5, h6, h7 {
 .contact2xl{
     @apply 2xl:text-3xl 2xl:ml-36 mb-16 pt-3 2xl:leading-relaxed;
 }
-
 
 .accented{
   @apply text-dusty
