@@ -1503,14 +1503,16 @@ h5,  h6,  h7 {
   margin-left: 3rem;
   margin-bottom: 4rem;
   padding-top: 0.75rem;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
 }
 
 @media (min-width: 1024px) {
   @media (min-width: 1280px) {
     .contact {
       margin-left: 6rem;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
     }
   }
 }

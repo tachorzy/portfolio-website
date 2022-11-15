@@ -413,7 +413,7 @@ h5, h6, h7 {
 }
 
 .contact{
-    @apply text-2xl lg:xl:ml-24 ml-12 mb-16 pt-3 leading-10;
+    @apply lg:xl:text-2xl text-sm lg:xl:ml-24 ml-12 mb-16 pt-3 lg:xl:leading-10 leading-7;
 }
 
 .contact2xl{
