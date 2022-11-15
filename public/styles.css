@@ -886,7 +886,15 @@ h5,  h6,  h7 {
 .expGrid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.5rem;
+  gap: 14rem;
+}
+
+@media (min-width: 1024px) {
+  @media (min-width: 1280px) {
+    .expGrid {
+      gap: 0.5rem;
+    }
+  }
 }
 
 .expGrid2xl {
@@ -962,16 +970,9 @@ h5,  h6,  h7 {
 
 .logo {
   position: absolute;
-  height: 2rem;
-  width: 2rem;
-}
-
-@media (min-width: 640px) {
-  @media (min-width: 768px) {
-    .logo {
-      margin-right: 1rem;
-    }
-  }
+  margin-bottom: 1rem;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 @media (min-width: 1024px) {
@@ -979,21 +980,6 @@ h5,  h6,  h7 {
     .logo {
       right: 0px;
       margin-right: 2.5rem;
-    }
-  }
-}
-
-@media (min-width: 1280px) {
-  @media (min-width: 1024px) {
-    .logo {
-      margin-bottom: 1rem;
-    }
-  }
-}
-
-@media (min-width: 1024px) {
-  @media (min-width: 1280px) {
-    .logo {
       height: 8rem;
       width: 8rem;
     }

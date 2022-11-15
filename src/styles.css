@@ -186,7 +186,7 @@ h5, h6, h7 {
 }
 
 .expGrid{
-    @apply grid grid-cols-2 gap-2
+    @apply grid grid-cols-2 lg:xl:gap-2 gap-56
 }
 
 .expGrid2xl{
@@ -222,7 +222,7 @@ h5, h6, h7 {
 }
 
 .logo{
-    @apply absolute lg:xl:right-0 lg:xl:mr-10 sm:md:mr-4 xl:lg:mb-4 lg:xl:w-32 lg:xl:h-32 w-8 h-8;
+    @apply absolute lg:xl:right-0 lg:xl:mr-10 mb-4 lg:xl:w-32 lg:xl:h-32 w-14 h-14;
 }
 
 .logo2xl{
