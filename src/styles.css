@@ -114,7 +114,7 @@ h4 {
 }
 
 h5, h6, h7 {
-    @apply lg:xl:text-6xl text-4xl font-bold lg:xl:ml-24 ml-12 mt-20 py-6 pt-16
+    @apply lg:xl:text-6xl text-4xl font-bold lg:xl:ml-24 ml-12 mt-20 lg:xl:py-6 py-3 pt-16
 }
 
 .secTitles2xl{
@@ -337,7 +337,7 @@ h5, h6, h7 {
 }
 
 .travelInfoTitle{
-    @apply lg:xl:text-2xl text-xl font-semibold my-2 text-mudbrick;
+    @apply lg:xl:text-2xl text-lg font-semibold lg:xl:my-2 my-0.5 text-mudbrick;
 }
 
 .travelImgWide{
