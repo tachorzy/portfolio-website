@@ -969,9 +969,7 @@ h5,  h6,  h7 {
 @media (min-width: 640px) {
   @media (min-width: 768px) {
     .logo {
-      bottom: 0px;
       margin-right: 1rem;
-      margin-top: 5rem;
     }
   }
 }
