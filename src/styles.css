@@ -434,7 +434,7 @@ h5, h6, h7 {
 }
 
 .hover:hover {
-  @apply text-mudbrick;
+  @apply text-mudbrick cursor-pointer;
 }
 
 .hoverAccented:hover {
