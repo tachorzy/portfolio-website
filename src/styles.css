@@ -127,11 +127,11 @@ h5, h6, h7 {
 }
 
 .navigation {
-    @apply fixed top-0 right-0 mr-6 bg-shark w-full;
+    @apply fixed top-0 w-screen right-0 mr-6 bg-shark;
 }
 
 .nav-grid{
-    @apply fixed gap-x-6 py-6 pr-6 xl:mb-2 2xl:mb-6 bg-shark w-full;
+    @apply block fixed gap-x-6 py-6 pr-6 xl:mb-2 2xl:mb-6 bg-shark w-full;
 }
 
 .navbar{
@@ -149,7 +149,7 @@ h5, h6, h7 {
 }
 
 .skillsFlexBox{
-    @apply flex-col lg:xl:ml-24 ml-12 lg:xl:text-xl text-lg gap-y-4 text-sandstone;
+    @apply flex-col lg:xl:ml-24 ml-12 lg:xl:text-xl text-lg gap-y-16 text-sandstone;
 }
 
 .skillsFlexBox2xl{
@@ -301,7 +301,7 @@ h5, h6, h7 {
 }
 
 .projectTechLogo{
-    @apply -mt-1 inline w-7 h-7 mb-6
+    @apply -mt-1 inline w-7 h-7 mb-10;
 }
 
 .projectTechLogo2xl{
